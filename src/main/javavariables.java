@@ -41,9 +41,9 @@ public class javavariables {
 		System.out.println(q);
 		
 		//7.
-		double number = 76;
+	    double NUMBER = 76;
 		double anotherNumber = 88;
-		double bigSum = number + anotherNumber;
+		double bigSum = NUMBER + anotherNumber;
 		System.out.println(bigSum);
 		
 		//8.
