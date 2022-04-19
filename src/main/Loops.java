@@ -91,27 +91,27 @@ public class Loops {
 		// 11, 22, 33, 44, 55, 66, 77, 88, 99, 101, 111,
 		// 121, 131, 141, 151, 161, 171, 181, 191,
 
-//		Scanner sc = new Scanner(System.in);
-//        int range1, range2;
-//        System.out.println("Enter a range in numbers(num1-num2):");
-//        range1 = sc.nextInt();
-//        range2 = sc.nextInt();
-//        int num1 = 0;
-//        int num2 = 0;
-//        System.out.println(range1 + " to " + range2 + " palindrome numbers are");
-//        for (int i = range1; i <= range2; i++) {
-//            num1 = i;
-//            num2 = 0;
-//            while (num1 != 0) {
-//                int rem = num1 % 10;
-//                num1 /= 10;
-//                num2 = num2 * 10 + rem;
-//            }
-//
-//            if (i == num2)
-//                System.out.print(i + " ");
-//        }
-//        sc.close();
+		Scanner sc = new Scanner(System.in);
+        int range1, range2;
+        System.out.println("Enter a range in numbers(num1-num2):");
+        range1 = sc.nextInt();
+        range2 = sc.nextInt();
+        int num1 = 0;
+        int num2 = 0;
+        System.out.println(range1 + " to " + range2 + " palindrome numbers are");
+        for (int i = range1; i <= range2; i++) {
+            num1 = i;
+            num2 = 0;
+            while (num1 != 0) {
+                int rem = num1 % 10;
+                num1 /= 10;
+                num2 = num2 * 10 + rem;
+            }
+
+            if (i == num2)
+                System.out.print(i + " ");
+        }
+        sc.close();
 
 		// 8. Write a program that prints the Fibonacci Sequence
 		// from 0 to 50. The following output will be produced:
