@@ -97,47 +97,47 @@ public class Controlflow {
 		// less than 1 or greater than 7. Don’t forget to
 		// include “break” statements in each of your cases.
 
-		Scanner userInput = new Scanner(System.in);
+//		Scanner userInput = new Scanner(System.in);
 		
-		System.out.println("Ayo, pick a number 1 -7??");
-		int userDate = userInput.nextInt();
-		
-		int day = userDate;
-		
-				switch (day) {
-				case 1:
-					// code block
-					System.out.println("Monday");
-					break;
-				case 2:
-					// code block
-					System.out.println("Tuesday");
-					break;
-				case 3:
-					// code block
-					System.out.println("Wednesday");
-					break;
-				case 4:
-					// code block
-					System.out.println("Thursday");
-					break;
-				case 5:
-					// code block
-					System.out.println("Friday");
-					break;
-				case 6:
-					// code block
-					System.out.println("Saturday");
-					break;
-				case 7:
-					// code block
-					System.out.println("Sunday");
-					break;
-				default:
-					// code block
-					System.out.println("OUT OF RANGE");
-				}
-		userInput.close();
+//		System.out.println("Ayo, pick a number 1 -7??");
+//		int userDate = userInput.nextInt();
+//		
+//		int day = userDate;
+//		
+//				switch (day) {
+//				case 1:
+//					// code block
+//					System.out.println("Monday");
+//					break;
+//				case 2:
+//					// code block
+//					System.out.println("Tuesday");
+//					break;
+//				case 3:
+//					// code block
+//					System.out.println("Wednesday");
+//					break;
+//				case 4:
+//					// code block
+//					System.out.println("Thursday");
+//					break;
+//				case 5:
+//					// code block
+//					System.out.println("Friday");
+//					break;
+//				case 6:
+//					// code block
+//					System.out.println("Saturday");
+//					break;
+//				case 7:
+//					// code block
+//					System.out.println("Sunday");
+//					break;
+//				default:
+//					// code block
+//					System.out.println("OUT OF RANGE");
+//				}
+//		userInput.close();
 	}
 
 }
