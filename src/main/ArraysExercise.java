@@ -36,7 +36,7 @@ public class ArraysExercise {
 //		System.out.println(answer);
 
 		// 3. Write a program that creates an array of String type and
-		// initializes it with the strings “red”, “green”, “blue” and “yellow”.
+		// initializes it with the strings ï¿½redï¿½, ï¿½greenï¿½, ï¿½blueï¿½ and ï¿½yellowï¿½.
 		// Print out the array length. Make a copy using the clone( ) method.
 		// Use the Arrays.toString( ) method on the new array to verify that
 		// the original array was copied.
